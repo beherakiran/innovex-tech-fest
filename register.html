@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  </head>
+  <body>
+    <header
+      class="sticky top-0 z-50 border-b border-gray-200 shadow-sm bg-white"
+    >
+      <nav
+        class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-6"
+      >
+        <a href="index.html" class="text-2xl font-bold text-violet-600">
+          INNOVEX.
+        </a>
+        <div class="flex flex-col items-center gap-6 sm:flex-row">
+          <a href="index.html" class="hover:text-violet-600">Home</a>
+          <a href="schedule.html" class="hover:text-violet-600">Schedule</a>
+          <a href="speakers.html" class="hover:text-violet-600">Speakers</a>
+        </div>
+        <div class="flex flex-col items-center gap-3 sm:flex-row">
+          <a
+            href="register.html"
+            class="rounded-lg bg-violet-500 px-4 py-2 font-bold text-white hover:bg-violet-600"
+            >Register</a
+          >
+        </div>
+      </nav>
+    </header>
+    <div class="mx-auto max-w-5xl px-4 py-8 text-center">
+      <h1 class="mt-3 text-3xl font-bold text-violet-600">
+        Register for INNOVEX 2026
+      </h1>
+
+      <p class="mt-4 text-gray-600">
+        Join us for two days of technology, creativity and innovation.
+      </p>
+    </div>
+
+    <form
+      class="p-8 rounded-xl border border-violet-200  w-full max-w-2xl mx-auto bg-violet-50 mb-6"
+    >
+      <div class="mb-4">
+        <label for="name" class="mb-2 block font-medium"> Full Name </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+          class="w-full outline-violet-500 rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900"
+        />
+      </div>
+
+      <div class="mb-4">
+        <label for="email" class="mb-2 block font-medium">
+          Email Address
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+          class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900  outline-violet-500"
+        />
+      </div>
+
+      <div class="mb-4">
+        <label for="college" class="mb-2 block font-medium">
+          College Name
+        </label>
+        <input
+          type="text"
+          id="college"
+          name="college"
+          placeholder="Enter your college name"
+          required
+          class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-violet-500"
+        />
+      </div>
+
+      <div class="mb-4">
+        <label for="phone" class="mb-2 block font-medium"> Phone Number </label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          maxlength="10"
+          pattern="[0-9]{10}"
+          required
+          class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-violet-500"
+        />
+      </div>
+
+      <section>
+        <h3 class="mb-3 font-medium">Choose Your Ticket</h3>
+
+        <div class="space-y-3">
+          <label class="flex items-center gap-3">
+            <input type="radio" name="ticket" value="Basic" required />
+            <span>Basic — ₹199</span>
+          </label>
+
+          <label class="flex items-center gap-3">
+            <input type="radio" name="ticket" value="Pro" />
+            <span>Pro — ₹499</span>
+          </label>
+
+          <label class="flex items-center gap-3">
+            <input type="radio" name="ticket" value="VIP" />
+            <span>VIP — ₹999</span>
+          </label>
+        </div>
+      </section>
+
+      <div class="mb-4">
+        <label class="flex items-start gap-3">
+          <input type="checkbox" name="terms" required class="mt-1" />
+          <span class="text-sm text-gray-600 ">
+            I agree to the event terms and conditions.
+          </span>
+        </label>
+      </div>
+
+      <button
+        type="submit"
+        class="w-full rounded-lg bg-violet-600 px-6 py-3 font-semibold text-white hover:bg-violet-700"
+      >
+        Complete Registration
+      </button>
+    </form>
+
+    <footer class="bg-black px-5 py-6 text-violet-300">
+      <div
+        class="mx-auto max-w-7xl flex flex-col justify-between items-center gap-6"
+      >
+        <div class="text-center">
+          <h2 class="font-bold text-2xl">INNOVEX.</h2>
+        </div>
+        <div class="flex gap-6">
+          <a href="index.html" class="hover:text-violet-400">Home</a>
+          <a href="schedule.html" class="hover:text-violet-400">Schedule</a>
+          <a href="speakers.html" class="hover:text-violet-400">Speakers</a>
+          <a href="register.html" class="hover:text-violet-400">Register</a>
+        </div>
+      </div>
+      <div
+        class="mt-8 border-t border-gray-700 pt-5 text-center text-sm text-gray-400"
+      >
+        <p>&copy; 2026 INNOVEX. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
