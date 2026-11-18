@@ -26,21 +26,21 @@ This website is designed for a two-day college technology festival happening on 
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](images/screenshots/homepage.png)
 
 ### Schedule Page
-![Schedule Page](screenshots/schedule.png)
+![Schedule Page](images/screenshots/schedule.png)
 
 ### Speakers Page
-![Speakers Page](screenshots/speakers.png)
+![Speakers Page](images/screenshots/speakers.png)
 
 ### Registration Page
-![Registration Page](screenshots/register.png)
+![Registration Page](images/screenshots/register.png)
 
 ## Live Deployment Link
 
-[View Live Website](ADD_YOUR_VERCEL_URL_HERE)
+[View Live Website](https://innovex-tech-fest.vercel.app/)
 
 ## GitHub URL
 
-[View GitHub Repository](ADD_YOUR_GITHUB_REPOSITORY_URL_HERE)
+[View GitHub Repository](https://github.com/beherakiran/innovex-tech-fest)
