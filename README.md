@@ -26,7 +26,7 @@ This website is designed for a two-day college technology festival happening on 
 ## Screenshots
 
 ### Home Page
-![Home Page](images/screenshots/hompage.png)
+![Home Page](images/screenshots/homepage.png)
 
 ### Schedule Page
 ![Schedule Page](images/screenshots/schedule.png)
@@ -43,4 +43,4 @@ This website is designed for a two-day college technology festival happening on 
 
 ## GitHub URL
 
-[View GitHub Repository](https://github.com/beherakiran/innovex-tech-fest?utm_source=chatgpt.com)
+[View GitHub Repository](https://github.com/beherakiran/innovex-tech-fest)
